@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cbffa9;
+  font-size: 2rem;
+}
+
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.w {
+  color: white;
+  background-image: url("../assets/kick.jpg");
+  background-size: 130px;
+}
+
+.a {
+  background-image: url("../assets/crash.jpg");
+  background-size: 130px;
+  color: black;
+}
+
+.s {
+  background-image: url("../assets/snare.jpg");
+  background-size: 160px;
+  color: black;
+}
+
+.d {
+  color: white;
+  background-image: url("../assets/tom.jpeg");
+  background-size: 160px;
+}
+
+.j {
+  color: white;
+  background-image: url("../assets/tom.jpeg");
+  background-size: 160px;
+}
+
+.k {
+  color: white;
+  background-image: url("../assets/tom.jpeg");
+  background-size: 160px;
+}
+
+.l {
+  color: white;
+  background-image: url("../assets/tom.jpeg");
+  background-size: 160px;
+}
+
+.drum {
+  height: 120px;
+  width: 120px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 25px;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#heading {
+  border: 3px solid black;
+  padding: 20px;
+  margin: 100px 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-shadow: 3px 3px 3px;
+}
+
+@media (max-width: 600px){
+
+  
+
+  #heading{
+    font-size: xx-large;
+    margin: 30px 0px;
+  }
+}
