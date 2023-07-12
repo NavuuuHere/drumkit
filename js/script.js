@@ -5,10 +5,12 @@ for (let i = 0; i < drumNum; i++)
     let humDrum = this.innerHTML;
 
     makeSound(humDrum);
+  buttonAnimation(this.innerHTML)
   });
 
 document.addEventListener("keypress", function (event) {
   makeSound(event.key);
+  buttonAnimation(event.key)
 });
 
 function makeSound(key) {
@@ -53,4 +55,13 @@ function makeSound(key) {
     default:
       console.log(humDrum);
   }
+}
+
+function buttonAnimation(currentKey){
+  let activeButton = document.querySelector("." + currentKey)
+  activeButton.classList.add("pressed")
+  setTimeout (function(){
+    activeButton.classList.remove("pressed")
+    
+  }, 100);
 }
