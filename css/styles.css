@@ -71,6 +71,11 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+.pressed{
+  box-shadow: 3px 3px 3px;
+  opacity: 0.5;
+}
+
 #heading {
   border: 3px solid black;
   padding: 20px;
